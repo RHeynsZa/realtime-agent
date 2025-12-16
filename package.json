@@ -1,0 +1,26 @@
+{
+  "name": "realtime-agent",
+  "version": "1.0.0",
+  "description": "WebSocket server for LLM communication with hallucination detection",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/ws": "^8.5.10",
+    "typescript": "^5.3.0",
+    "vitest": "^4.0.15"
+  },
+  "dependencies": {
+    "ws": "^8.14.0"
+  }
+}
